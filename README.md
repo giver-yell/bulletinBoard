@@ -21,3 +21,6 @@ username:~/ImageMagick-7.0.11 $ sudo make install
 
 ### Railsアプリ作成
 `username:~/environment $ rails new アプリケーション名`
+
+### コントローラ作成
+`$ rails g controller コントローラ名`
