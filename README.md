@@ -41,8 +41,16 @@ username:~/ImageMagick-7.0.11 $ sudo make install
 `$ rails g model モデル名`
 
 ### MySQL
-#### MySQL(MariaDB) が入ってるか確認
-`$ mysql --version`
+- MySQL(MariaDB) が入ってるか確認  
+`$ mysql --version`  
+-  mariadb-serverをインストール  
+`$ sudo yum install mariadb-server`  
+- MariaDBの状態を確認  
+`$ sudo service mariadb status`  
+-  MariaDBの起動  
+`$ sudo service mariadb start`  
+- MySQLのステータスを確認(起動状態)  
+`$ sudo service mariadb status`  
 
 ### Route確認
 `$ rails routes`
