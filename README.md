@@ -29,3 +29,5 @@ username:~/ImageMagick-7.0.11 $ sudo make install
 
 ### コントローラ作成
 `$ rails g controller コントローラ名`
+### モデル作成
+`$ rails g model モデル名`
