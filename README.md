@@ -11,6 +11,10 @@ or
 ## migration実行
 `username:~/environment/sample_app $ rails db:migrate`
 
+
+## MySQL操作
+
+
 ## 環境構築
 ### Railsバージョンアップ
 `$ gem install rails -v 5.2.5`  
@@ -35,6 +39,10 @@ username:~/ImageMagick-7.0.11 $ sudo make install
 `$ rails g controller コントローラ名`
 ### モデル作成
 `$ rails g model モデル名`
+
+### MySQL
+#### MySQL(MariaDB) が入ってるか確認
+`$ mysql --version`
 
 ### Route確認
 `$ rails routes`
