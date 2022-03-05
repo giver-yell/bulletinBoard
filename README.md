@@ -3,6 +3,11 @@
 [掲示板](http://qanda-1234587.herokuapp.com/)<br>
 `http://qanda-1234587.herokuapp.com/`
 
+## アプリケーションサーバ（Puma）起動
+`username:~/environment/sample_app $ rails server`  
+or  
+`username:~/environment/sample_app $ rails s`
+
 ## 環境構築
 ### Railsバージョンアップ
 `$ gem install rails -v 5.2.5`  
