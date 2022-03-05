@@ -35,3 +35,6 @@ username:~/ImageMagick-7.0.11 $ sudo make install
 `$ rails g controller コントローラ名`
 ### モデル作成
 `$ rails g model モデル名`
+
+### Route確認
+`$ rails routes`
