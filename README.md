@@ -8,6 +8,9 @@
 or  
 `username:~/environment/sample_app $ rails s`
 
+## migration実行
+`username:~/environment/sample_app $ rails db:migrate`
+
 ## 環境構築
 ### Railsバージョンアップ
 `$ gem install rails -v 5.2.5`  
