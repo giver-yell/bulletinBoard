@@ -13,7 +13,20 @@ or
 
 
 ## MySQL操作
-
+-  MariaDBの起動  
+`$ sudo service mariadb start`  
+- MySQLのステータス確認  
+`$ sudo service mariadb status`  
+- MySQL(MariaDB)への接続  
+`$ mysql -u root -p`  
+- データベースの確認  
+`$ MariaDB [(none)]>> SHOW DATABASES;`  
+- データベースの選択  
+`$ USE データベース名;`  
+- テーブル一覧の確認  
+`$ MariaDB [sample_app]>> SHOW TABLES;`  
+- テーブルの詳細を確認
+`$ MariaDB [sample_app]>> DESCRIBE lists;`  
 
 ## 環境構築
 ### Railsバージョンアップ
@@ -45,12 +58,7 @@ username:~/ImageMagick-7.0.11 $ sudo make install
 `$ mysql --version`  
 -  mariadb-serverをインストール  
 `$ sudo yum install mariadb-server`  
-- MariaDBの状態を確認  
-`$ sudo service mariadb status`  
--  MariaDBの起動  
-`$ sudo service mariadb start`  
-- MySQLのステータスを確認(起動状態)  
-`$ sudo service mariadb status`  
+
 
 ### Route確認
 `$ rails routes`
